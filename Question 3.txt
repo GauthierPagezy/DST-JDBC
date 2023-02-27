@@ -1,0 +1,2 @@
+r1 = "Select nom_pren From client INNER JOIN client_menu ON client.id = client_menu.idClient WHERE paiement = carte AND mois-annee LIKE &2";
+R2 = "SELECT COUNT * FROM client_menu WHERE sauce IN (mayonnaise, harissa, Mayonnaise,Harissa+Mayo,Harissa)"
